@@ -113,7 +113,7 @@ example:
 from emailtest import emailtest
 
 
-eb = emailtest.EmailObject("hpliu5898@fiberhome.com","test content")
+eb = emailtest.EmailObject("******@******.com","test content")
 eb.send_email()
 
 tips:
