@@ -4,12 +4,10 @@
 ### 1.install
 ```
 pip install emailtest-1.0.tar.gz
-<<<<<<< HEAD
 
 mkdir /etc/zabbix
 cp alarm_email.conf /etc/zabbix
-=======
->>>>>>> 30db7cfb1966070782c5513f00dd608b62c3f072
+
 ```
 ### 2.example
 ```
