@@ -88,7 +88,7 @@ class EmailObject:
         msg = MIMEText(self.content,'plain','utf-8')
         msg['Subject'] = Header(self.subject, 'utf-8')
         msg['From'] = 'AlarmEmail'+'<'+from_addr+'>'    
-        msg['To'] = "hpliu5898@fiberhome.com"
+        msg['To'] = "******@******.com"
         
         try:
             signal.signal(signal.SIGALRM,handler)
